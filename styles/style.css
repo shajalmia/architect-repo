@@ -1,3 +1,14 @@
-h1{
-    color:rgb(114, 231, 192)
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
+
+/* Navbar Styles */
+
+.navbar{
+    display:flex;
+    
+}
+
