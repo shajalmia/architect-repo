@@ -1,14 +1,121 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 
 .work-sans-normal {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+/* Shared Styles */
+
+.display-flex{
+      display:flex;
+
+}
+.dark1{
+    color:#131313;
+}
+.dark2{
+    color:#424242;
+}
+.dark3{
+    color:#727272;
+}
+
+.explore-btn{
+    height:64px;
+    width:180px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: .5rem;
+    color:#fff;
+    
+}
+
+/* header background */
+.bg-light{   
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* Header Styles */
 
 /* Navbar Styles */
 
 .navbar{
-    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  
+
+}
+.navbar-title{
+    /* margin-left: 30px; */
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.nav-links{
+   
+}
+.nav-item{
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color:#424242;
     
 }
+
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Banner Content Styles */
+.banner-content{
+    max-width:862px;
+   
+    margin:0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+    display: inline;
+    
+}
+
+.banner-description{
+    font-size: 1rem;
+}
+.banner-btn{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size:1.05rem;
+    padding:2px 30px;
+}
+
+.banner-img{
+   width:100%;
+}
+
+/* Responsive Media Query */
+@media screen and (min-width:400px) and (max-width:720px) {
+    .navbar,.nav-links{
+        flex-direction: column;
+        gap:10px;
+    }
+
+    
+    
+}
+
 
