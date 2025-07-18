@@ -218,6 +218,48 @@ main{
     
 }
 
+/* Sponsors Section Styles */
+.sponsors-container{
+    flex-direction: column;
+   
+
+    
+}
+
+.sponsors-info{
+    flex-direction: column;
+    max-height:130px;
+    max-width: 512px;
+    margin:0 auto;
+    text-align: center;
+   
+}
+.sponsors-title{
+    font-weight: bold;
+    font-size: 2.8rem;
+    color:#131313;
+     margin-bottom: 2px;
+     margin-top: 2px;
+
+}
+.sponsors-descriptions{
+    margin-top: 2px;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 50px;
+   /* max-width: 1440px; */
+
+}
+.sponsor-companies img{
+    filter:grayscale(100%);
+   
+}
+
+
+
 
 
 
@@ -256,6 +298,13 @@ main{
         grid-template-columns: repeat(1,1fr);
        margin: 20px auto;
        gap:10px;
+
+    }
+
+    .sponsor-companies{
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+        justify-items: center;
 
     }
 
